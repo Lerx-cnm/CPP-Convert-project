@@ -19,7 +19,7 @@ int main(){
     }
   else if (input == "c")
     {
-      cout << "Please enter a temperature to convert co farenheit: ";
+      cout << "Please enter a temperature to convert to farenheit: ";
       cin >> temp;
       double temp1;
       temp1 = (temp*1.8)+32;
