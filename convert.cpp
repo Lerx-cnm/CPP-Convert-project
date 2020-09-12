@@ -1,16 +1,7 @@
 #include <cmath>
 #include <iostream>
 using namespace std;
-void check(){
-  cout << "Would you like to do another conversion?(y/n)\n";
-  string input;
-  cin >> input;
-  if(input == "y"){
-    main();
-  }
-  else{
-  }
-}
+void check();
 
 int main(){
   double temp = 0;
@@ -40,4 +31,14 @@ int main(){
       cout << "Please enter a valid answer\n";
       main();
     }
+}
+void check(){
+  string input;
+  cout << "Would you like to do another conversion(y/n)?\n";
+  cin >> input;
+  if (input == "y"){
+    main();
+  }
+  else{
+  }
 }
