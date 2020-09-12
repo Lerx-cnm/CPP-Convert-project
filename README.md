@@ -1,4 +1,4 @@
-# CPP-Prime_project
+# CPP-Convert-project
 
 
 This project is a small project to test my knowledge of c++ and to help me learn about it.
